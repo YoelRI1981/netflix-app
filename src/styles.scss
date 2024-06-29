@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white; /* Esto también cambiará el color del texto a blanco para que sea visible sobre el fondo negro */
+  }
+  
+  /* Opcional: Para asegurarte de que otros elementos también usen todo el ancho y alto disponibles */
+  * {
+    box-sizing: border-box;
+  }

@@ -1,0 +1,15 @@
+<div>
+    <h2>{{title}}</h2>
+    <ul>
+        @for (serie of array; track $index) {
+        <li>
+          <a href="">
+            <img src="{{ serie.image }}" alt="{{ serie.title }}" draggable="false" />
+          </a>
+        </li>
+        }
+      </ul>
+</div>
+
+
+

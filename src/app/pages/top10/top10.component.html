@@ -1,0 +1,15 @@
+<!-- Top 10 -->
+<div>
+    <h2 class="genderText">{{title}}</h2>
+    <ul>
+        @for (serie of array; track $index) {
+        <li>
+          <a href="" routerLink="/play" >
+            <h3>{{$index+1}}</h3>
+            <img src="{{ serie.image }}" alt="{{ serie.title }}" draggable="false"  />
+          </a>
+        </li>
+        }
+      </ul>
+</div>
+
